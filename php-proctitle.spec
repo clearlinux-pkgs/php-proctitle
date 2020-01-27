@@ -4,7 +4,7 @@
 #
 Name     : php-proctitle
 Version  : 0.1.2
-Release  : 2
+Release  : 3
 URL      : https://pecl.php.net//get/proctitle-0.1.2.tgz
 Source0  : https://pecl.php.net//get/proctitle-0.1.2.tgz
 Summary  : No detailed summary available
@@ -30,6 +30,7 @@ lib components for the php-proctitle package.
 
 %prep
 %setup -q -n proctitle-0.1.2
+cd %{_builddir}/proctitle-0.1.2
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -48,4 +49,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/proctitle.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/proctitle.so
