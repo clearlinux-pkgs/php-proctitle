@@ -4,7 +4,7 @@
 #
 Name     : php-proctitle
 Version  : 0.1.2
-Release  : 4
+Release  : 5
 URL      : https://pecl.php.net//get/proctitle-0.1.2.tgz
 Source0  : https://pecl.php.net//get/proctitle-0.1.2.tgz
 Summary  : No detailed summary available
